@@ -24,6 +24,7 @@ h4{
     margin-bottom: 5%;
 }
 input{
+    border: none;
     width: 48%;
     height: 50%;
     background-color: rgb(218, 238, 36);
@@ -47,7 +48,7 @@ table,tr,td,span{
     background-color: tomato;
 }
 button{
-    
+    border: none;
     background-color: yellowgreen;
     font-size: 30px;
 }
