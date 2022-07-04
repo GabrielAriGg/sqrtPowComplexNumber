@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="init();"><!--Para que funcione el table-->
+        <video src="https://carontestudio.com/img/f4.mp4" autoplay="true" muted="true" loop="true" poster="https://carontestudio.com/img/contacto.jpg">
+            
+        </video>
+        <article>
+           <div class="titulo">
+            <h1>Calculadora de Potencia y Raices de numeros complejos</h1>
+            <h4>Dar <i>click</i> en las opciones para seleccionar el tipo de la forma del numero complejo y en las operaciones que elija  </h4>
+           
+
+        </div>
+          <div>
+                          <button  id="rectangular">Rectangular</button>
+                          <br>
+                          <input type="number" step="0.01" id="numerr" placeholder="Parte Real" class="numeros">
+                          <input type="number" step="0.01" id="numeri" placeholder="Parte Imaginaria" class="numeros">  
+          </div>
+
+          <div>
+                          <button  id="polar">Polar</button>
+                          <button  id="exponencial">Exponencial</button>
+                          <br>
+                          <input type="number" step="0.01" id="modulo" placeholder="Modulo" class="numeros">            
+                          <input type="number" step="0.001" id="angulo" placeholder="radianes" class="numeros"> 
+                          
+          </div>
+
+          <div>
+                          <button  id="potencia">Potencia</button>
+                          <button  id="raiz">Raiz</button>
+          <br>
+                          <label for="grado">¿Cual es el grado/exponente?</label>   
+                          <input type="number" step="0.01" id="grado" placeholder="grado" class="numeros">        
+          </div>
+
+         
+
+         
+
+          
+        
+
+        <!-- <form id="formulario"> -->
+
+                     
+                  
+              
+
+            <!-- <input type="number"  id="resultado5" placeholder="raizMod">  -->
+</article>
+        <!-- </form> -->
+        <article>
+            <div>
+                <button  id="calcular">Calcular</button>
+            </div>
+        <table>
+            <tr>
+                <td colspan="4"><span id="final" ></span></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="4"><span id="abajo" ></span></td>
+            </tr>
+        </table>
+        <div>
+            <button  id="reset">Reset</button>
+       </div>
+    </article>
+      
+       
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    background-color: #fff;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+h4{
+    color: #fff;
+    text-align: center;
+}
+.titulo{
+    margin-bottom: 5%;
+}
+input{
+    width: 48%;
+    height: 50%;
+    background-color: rgb(218, 238, 36);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+div{
+   
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+table,tr,td,span{
+    font-size: 30px;
+    margin-left: 10%;
+    width: 78%;
+    height: 100px;
+    background-color: tomato;
+}
+button{
+    
+    background-color: yellowgreen;
+    font-size: 30px;
+}
+#rectangular,#calcular{
+    margin-left:40% ;
+}
+#reset{
+    background-color: yellow;
+    margin-left: 42%;
+}
+#polar,#potencia{
+    margin-left: 35%;
+}
+
+label{
+    color: #fff;
+    font-size: 30px;
+}
+article{
+    margin-top: 5%;
+}
