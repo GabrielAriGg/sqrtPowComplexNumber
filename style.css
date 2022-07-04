@@ -49,6 +49,7 @@ table,tr,td,span{
 }
 button{
     border: none;
+    border-radius: 10px;
     background-color: yellowgreen;
     font-size: 30px;
 }
